@@ -2,51 +2,54 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
   }
   
   body {
-    font-family: Arial, sans-serif;
+    height: 100vh;
     line-height: 1.6;
+    background-color: #EBF4F6;
   }
   
-  header {
-    background: #333;
-    color: #fff;
+    header {
     position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    z-index: 1000;
-  }
-  
-  .navbar {
+    padding: 10px 20px;
+    background: #0fb1bd;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    color: #ccc9d3;
+    z-index: 100;
   }
-  
+
   .logo-box {
-    font-size: 1.5rem;
+    font-size: 20px;
     font-weight: bold;
     background: #fff;
     color: #333;
     padding: 5px 10px;
-    border-radius: 5px;
+    border-radius: 8px;
   }
   
-  .nav-links {
-    display: flex;
-    list-style: none;
-  }
-  
-  .nav-links li {
-    margin: 0 10px;
-  }
-  
-  .nav-links a {
+  .navbar a {
+    font-size: 17px;
     color: #fff;
     text-decoration: none;
-    font-size: 1rem;
+    font-weight: 500px;
+    margin-left: 25px;
+    border-bottom: 2px solid transparent;
+    transition: 3s;
+    
   }
+ 
+  .navbar a:hover{
+    border-color: #071952;
+
+  }
+ 
   
   .menu-toggle {
     display: none;
@@ -58,8 +61,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-height: 100vh;
-    padding: 20px;
+    height: 100%;
+    padding: 50px 5% 0;
+    gap: 50px;
+    color: #080808;
   }
   
   .home-content h1 {
@@ -73,9 +78,9 @@
   }
   
   .home-image img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 50px;
   }
   
   .about, .projects, .contact {
