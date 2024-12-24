@@ -68,19 +68,26 @@
   }
   
   .home-content h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
+    font-size: 55px;
+    line-height: 1;
   }
   
-  .home-content p {
-    font-size: 1.2rem;
-    color: #666;
+  .home-content h2 {
+    font-size: 36px;
+  }
+  
+  .home-content h3 {
+    font-size: 26px;
+    
   }
   
   .home-image img {
-    max-width: 50%;
-    height: auto;
-    border-radius: 50px;
+    position: relative;
+    width: 28vw;
+    height: 28vw;
+    border-radius: 40%;
+    border: 2px solid #088395;
+    box-shadow: 0 0;
   }
   
   .about, .projects, .contact {
