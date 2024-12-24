@@ -87,7 +87,8 @@
     height: 28vw;
     border-radius: 40%;
     border: 2px solid #088395;
-    box-shadow: 0 0;
+    box-shadow: 0 0 20px #088395;
+    overflow: hidden;
   }
   
   .about, .projects, .contact {
