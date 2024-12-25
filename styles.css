@@ -91,11 +91,18 @@
     overflow: hidden;
   }
   
-  .about, .projects, .contact {
-    padding: 40px 20px;
-    text-align: center;
+  .about {
+    padding: 20px 50px;
+   
   }
   
+  .about-content h2 {
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+  }
+
   .contact .social-icons {
     display: flex;
     justify-content: center;
