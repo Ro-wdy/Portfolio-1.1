@@ -12,7 +12,7 @@
   }
   
     header {
-    position: absolute;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
@@ -93,33 +93,74 @@
   
   .about {
     padding: 20px 50px;
-   
+    color: #080808
   }
   
   .about-content h2 {
-    align-items: center;
-    font-size: 30px;
+    text-align: center;
+    font-size: 36px;
     font-weight: bold;
-    display: block;
+    
   }
 
-  .contact .social-icons {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 10px;
+  .about-content p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .contact-content h2 {
+    padding: 20px 50px;
+    margin-left: 36px;
+    font-size: 28px;
+    font-weight: bold;
   }
   
-  .contact .social-icons img {
-    width: 40px;
-    height: 40px;
+  .social-icons-a {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    color: #088395;
     cursor: pointer;
+  }
+  
+  .social-icons-a a {
+    text-decoration: none;
+  }
+  
+  .social-icons-a img {
+    height: 30px;
+    width: 30px;
     transition: transform 0.3s ease;
   }
   
-  .contact .social-icons img:hover {
+  .social-icons-a img:hover {
     transform: scale(1.1);
   }
+  
+  .social-icons-b {
+    display: flex; 
+    flex-direction: column;
+    padding: 10px;
+    color: #088395;
+    cursor: pointer;
+  }
+  
+  .social-icons-b a {
+    text-decoration: none;
+  }
+  
+  .social-icons-b img {
+    height: 30px;
+    width: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icons-b img:hover {
+    transform: scale(1.1);
+  }
+  
   
   /* Media Queries */
   
