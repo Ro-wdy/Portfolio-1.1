@@ -105,30 +105,37 @@
 
   .about-content p {
     text-align: center;
-    font-size: 18px;
+    font-size: 30px;
+    font-weight: bold;
     line-height: 1.6;
+  }
+
+  .contact {
+    padding: 40px 20px;
+    text-align: center;
+    color:black;
   }
 
   .contact-content h2 {
     padding: 20px 50px;
     margin-left: 36px;
-    font-size: 28px;
+    font-size: 35px;
     font-weight: bold;
   }
   
   .social-icons-a {
     display: flex;
     justify-content: center;
-    gap: 10px;
-    padding: 10px;
-    color: #088395;
-    cursor: pointer;
+    padding: 15px 0;    
   }
   
   .social-icons-a a,
   .social-icons-b a,
   .social-icons-c a {
     text-decoration: none;
+    gap: 20px;
+    color: #088395;
+    cursor: pointer;
   }
   
   .social-icons-a img,
@@ -139,21 +146,18 @@
     transition: transform 0.3s ease;
   }
   
-  .social-icons-a img:hover {
+  .social-icons-a img:hover,
+  .social-icons-b img:hover,
+  .social-icons-c img:hover {
     transform: scale(1.1);
   }
   
-  .social-icons-b {
+  .social-icons-b,
+  .social-icons-c {
     display: flex; 
     flex-direction: column;
-    padding: 10px;
-    color: #088395;
-    cursor: pointer;
-  }
-  
-  
-  .social-icons-b img:hover {
-    transform: scale(1.1);
+    gap: 8px;
+   
   }
   
   
