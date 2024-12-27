@@ -125,11 +125,15 @@
     cursor: pointer;
   }
   
-  .social-icons-a a {
+  .social-icons-a a,
+  .social-icons-b a,
+  .social-icons-c a {
     text-decoration: none;
   }
   
-  .social-icons-a img {
+  .social-icons-a img,
+  .social-icons-b img,
+  .social-icons-c img {
     height: 30px;
     width: 30px;
     transition: transform 0.3s ease;
@@ -147,15 +151,6 @@
     cursor: pointer;
   }
   
-  .social-icons-b a {
-    text-decoration: none;
-  }
-  
-  .social-icons-b img {
-    height: 30px;
-    width: 30px;
-    transition: transform 0.3s ease;
-  }
   
   .social-icons-b img:hover {
     transform: scale(1.1);
@@ -170,7 +165,7 @@
       flex-wrap: wrap;
     }
   
-    .nav-links {
+    .navbar {
       display: none;
       flex-direction: column;
       background: #333;
@@ -182,7 +177,7 @@
       z-index: 10;
     }
   
-    .nav-links.active {
+    .navbar.active {
       display: flex;
     }
   
@@ -208,9 +203,7 @@
       margin-top: 20px;
     }
   
-    .about, .projects, .contact {
-      padding: 20px;
-    }
+   
   }
   
   /* For Laptops  */
@@ -224,7 +217,7 @@
       padding: 4px 8px;
     }
   
-    .nav-links a {
+    .navbar a {
       font-size: 0.9rem;
     }
   
