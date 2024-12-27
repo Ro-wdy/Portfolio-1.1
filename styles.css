@@ -36,9 +36,10 @@
   
   .navbar a {
     font-size: 17px;
-    color: #fff;
+    color: black;
     text-decoration: none;
     font-weight: 500px;
+    font-size: 25px;
     margin-left: 25px;
     border-bottom: 2px solid transparent;
     transition: 3s;
@@ -62,7 +63,7 @@
     align-items: center;
     justify-content: space-between;
     height: 100%;
-    padding: 50px 5% 0;
+    padding: 30px 5% 0;
     gap: 50px;
     color: #080808;
   }
@@ -92,13 +93,16 @@
   }
   
   .about {
-    padding: 20px 50px;
-    color: #080808
+    padding: 10px 30px;
+    color: #080808;
+    display:block;
+    align-items: center;
   }
   
   .about-content h2 {
     text-align: center;
-    font-size: 36px;
+    font-size: 40px;
+    line-height: 1;
     font-weight: bold;
     
   }
@@ -119,14 +123,15 @@
   .contact-content h2 {
     padding: 20px 50px;
     margin-left: 36px;
-    font-size: 35px;
+    font-size: 45px;
     font-weight: bold;
   }
   
   .social-icons-a {
     display: flex;
     justify-content: center;
-    padding: 15px 0;    
+    padding: 15px 0;  
+    gap: 20px;  
   }
   
   .social-icons-a a,
@@ -136,20 +141,25 @@
     gap: 20px;
     color: #088395;
     cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    align-items: center;
   }
   
-  .social-icons-a img,
-  .social-icons-b img,
-  .social-icons-c img {
+  .social-icons-a a i,
+  .social-icons-b a i,
+  .social-icons-c a i {
     height: 30px;
     width: 30px;
+    font-size: 28px;
     transition: transform 0.3s ease;
   }
   
-  .social-icons-a img:hover,
-  .social-icons-b img:hover,
-  .social-icons-c img:hover {
+  .social-icons-a a:hover i,
+  .social-icons-b a:hover i,
+  .social-icons-c a:hover i{
     transform: scale(1.1);
+    color:#071952;
   }
   
   .social-icons-b,
