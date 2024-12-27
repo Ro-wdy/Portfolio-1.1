@@ -176,7 +176,6 @@
   margin-left: 17px;
 }
   
-  /* Media Queries */
   
   /* For phones */
   @media screen and (max-width: 768px) {
@@ -258,22 +257,4 @@
     }
   }
   
-  /* For Large Screens */
-  @media screen and (min-width: 1201px) {
-    .navbar {
-      padding: 10px 40px;
-    }
-  
-    .home-content h1 {
-      font-size: 3.5rem;
-    }
-  
-    .home-content p {
-      font-size: 1.3rem;
-    }
-  
-    .home-image img {
-      max-width: 80%;
-    }
-  }
-  
+ 
