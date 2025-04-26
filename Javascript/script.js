@@ -1,4 +1,4 @@
-<script>
+
 // Mobile menu toggle
 document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
     document.querySelector('.nav-links').classList.toggle('show');
@@ -15,4 +15,3 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         document.querySelector('.nav-links').classList.remove('show');
     });
 });
-</script>
