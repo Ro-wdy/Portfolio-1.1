@@ -1,3 +1,16 @@
+/* Base Styles */
+:root {
+  --primary-color: #3b82f6;
+  --primary-dark: #2563eb;
+  --primary-light: #dbeafe;
+  --white: #ffffff;
+  --light-bg: #f9fafb;
+  --dark-text: #1f2937;
+  --gray-text: #4b5563;
+  --gray-light: #e5e7eb;
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --transition: all 0.3s ease;
+}
 
 * {
   margin: 0;
@@ -91,30 +104,29 @@ img {
   color: var(--primary-color);
 }
 
-/* Hero Section */
 #home {
   padding-top: 6rem;
   padding-bottom: 3rem;
 }
 
-.hero-content {
+.intro-section {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
 }
 
-.hero-text {
+.intro-text{
   flex: 1;
   text-align: center;
 }
 
-.hero-image {
+.my-image {
   flex: 1;
   max-width: 400px;
 }
 
-.hero-text h1 {
+.intro-text h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
@@ -123,13 +135,13 @@ img {
   color: var(--primary-color);
 }
 
-.hero-text p {
+.intro-text p {
   margin-bottom: 1.5rem;
   color: var(--gray-text);
   font-size: 1.1rem;
 }
 
-.cta-button {
+.home-button {
   background-color: var(--primary-color);
   color: var(--white);
   padding: 0.75rem 2rem;
@@ -140,7 +152,7 @@ img {
   transition: var(--transition);
 }
 
-.cta-button:hover {
+.home-button:hover {
   background-color: var(--primary-dark);
 }
 
@@ -198,7 +210,7 @@ img {
   padding: 4rem 0;
 }
 
-.projects-grid {
+.projects-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2rem;
@@ -358,18 +370,18 @@ footer {
   gap: 0.5rem;
 }
 
-.footer-social {
+.footer-social-links {
   display: flex;
   gap: 1rem;
   margin-top: 1rem;
 }
 
-.footer-social a {
+.footer-social-links a {
   color: var(--white);
   transition: var(--transition);
 }
 
-.footer-social a:hover {
+.footer-social-links a:hover {
   color: var(--primary-color);
 }
 
@@ -403,12 +415,12 @@ footer {
       display: block;
   }
   
-  .hero-content {
+  .intro-content {
       flex-direction: column;
       text-align: center;
   }
   
-  .hero-text, .hero-image {
+  .intro-text, .hero-image {
       flex: none;
       width: 100%;
   }
@@ -427,7 +439,7 @@ footer {
       font-size: 1.75rem;
   }
   
-  .hero-text h1 {
+  .intro-text h1 {
       font-size: 2rem;
   }
   
