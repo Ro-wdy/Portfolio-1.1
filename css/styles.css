@@ -410,7 +410,7 @@ footer {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/* Responsive Styles */
+/* Responsive Styles 
 @media (max-width: 768px) {
   .nav-links {
       position: absolute;
@@ -466,6 +466,19 @@ footer {
       flex-direction: column;
   }
 }
+ @media (max-width: 1024px) {
+  .project-card {
+    flex: 1 1 calc(50% - 2rem);
+    max-width: calc(50% - 2rem);
+  }
+}
+
+@media (max-width: 600px) {
+  .project-card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}*/
 
 
 
