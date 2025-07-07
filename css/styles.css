@@ -410,7 +410,135 @@ footer {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/* Responsive Styles 
+/* Responsive Styles */
+
+/* Tablets and smaller (<= 1024px) */
+@media (max-width: 1024px) {
+  .intro-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .intro-text, .my-image {
+    flex: none;
+    max-width: 100%;
+  }
+
+  .project-card {
+    flex: 1 1 calc(50% - 1rem);
+    max-width: calc(50% - 1rem);
+  }
+
+  .contact-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .contact-form {
+    min-width: 100%;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* Phones (<= 768px) */
+@media (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    right: 0;
+    background-color: var(--white);
+    box-shadow: var(--shadow);
+    flex-direction: column;
+    padding: 1rem 0;
+    gap: 1rem;
+    display: none;
+    text-align: center;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .mobile-menu-btn {
+    display: block;
+  }
+
+  .intro-section {
+    flex-direction: column;
+  }
+
+  .intro-text h1 {
+    font-size: 2rem;
+  }
+
+  .project-card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .contact-content {
+    flex-direction: column;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* Small phones (<= 480px) */
+@media (max-width: 480px) {
+  .section-head {
+    font-size: 1.75rem;
+  }
+
+  .intro-text h1 {
+    font-size: 1.75rem;
+  }
+
+  .intro-text p {
+    font-size: 1rem;
+  }
+
+  .home-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .project-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .project-card p {
+    font-size: 0.95rem;
+  }
+
+  .contact-form {
+    min-width: 100%;
+  }
+
+  .social-links {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+
+/*Responsive Styles 
 @media (max-width: 768px) {
   .nav-links {
       position: absolute;
