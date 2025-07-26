@@ -1,27 +1,24 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    
+    <title>Rhodah Mulera</title>
     <link rel="stylesheet" href="../css/styles.css">
-    <script src="../Javascript/script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav id="navbar">
         <div class="nav-content">
-            <div class="logo">Rhodah mulera</div>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
+            <div class="logo">Rhodah Mulera</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                
             </ul>
-            <div class="mobile-menu-btn">
+            <div class="mobile-menu-btn" id="mobileMenuBtn">
                 <i class="fas fa-bars"></i>
             </div>
         </div>
@@ -32,12 +29,12 @@
             <div class="intro-section">
                 <div class="intro-text">
                     <h1>Hello, I'm <span class="highlight">Rhodah Mulera</span></h1>
-                    <p>A passionate Web developer in Kenya creating amazing web applications having an experience of nearly 3 years.</p>
-                    <a href="projects.html" class="home-button">View My Work</a>
+                    <p>A passionate Web Developer in Kenya creating amazing web applications with nearly 3 years of experience.</p>
+                    <a href="projects.html" class="cta-button">View My Work</a>
                 </div>
                 
-                <div class="my-image">
-                    <img src="../Images/pimage.png" alt="My Profile Picture">
+                <div class="profile-image">
+                    <img src="../Images/pimage.png" alt="Rhodah Mulera - Profile Picture">
                 </div>
             </div>
         </div>
@@ -45,72 +42,100 @@
 
     <section id="about">
         <div class="container">
-            <h2 class="section-head">About</h2>
+            <h2 class="section-title">About Me</h2>
             <div class="about-content">
                 <div class="about-text">
                     <p>I'm a web developer with expertise in creating responsive and user-friendly websites. 
                         My passion lies in turning ideas into reality through code.
                         Currently I'm pursuing a bachelor's degree in Mathematics and Computer
-                        Science in Jomo Kenyatta Univesity of Agriculture and Technology (Jkuat). I'm passionate 
+                        Science at Jomo Kenyatta University of Agriculture and Technology (JKUAT). I'm passionate 
                         about software development and always looking forward to volunteer roles, internships
-                        and work in the same field.</p>
+                        and work opportunities in the same field.</p>
                     
-                        <div class="skills-container">
+                    <div class="skills-container">
                         <h3>My Skills</h3>
-                        <div class="skills-list">
+                        <div class="skills-grid">
                             <div class="skill-item">
-                                <i class="fa-brands fa-html5"></i>
+                                <i class="fab fa-html5"></i>
                                 <span>HTML5</span>
                             </div>
                             <div class="skill-item">
-                                <i class="fa-brands fa-css3-alt"></i>
-                                <span>CSS</span>
+                                <i class="fab fa-css3-alt"></i>
+                                <span>CSS3</span>
                             </div>
                             <div class="skill-item">
-                                <i class="fa-brands fa-square-js"></i>
+                                <i class="fab fa-js-square"></i>
                                 <span>JavaScript</span>
                             </div>
+                            <div class="skill-item">
+                                <i class="fab fa-react"></i>
+                                <span>React</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-node-js"></i>
+                                <span>Node.js</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-git-alt"></i>
+                                <span>Git</span>
+                            </div>
                         </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <footer>
-      <div class="container">
-          <div class="footer-content">
-              <div class="footer-section">
-                  <h3>Navigate</h3>
-                  <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html#about">About</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                  </ul>
-              </div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Navigate</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
 
-              <div class="footer-section">
-                <h3>Contact Info</h3>
-                <p><i class="fas fa-envelope"></i> mulerarhodah@gmail.com</p>
-                <p><i class="fas fa-phone"></i> +254 743 771 32</p>
-                <p><i class="fas fa-location-dot"></i> Nairobi</p>
-              </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> mulerarhodah@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +254 743 771 32</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Nairobi, Kenya</p>
+                    </div>
+                </div>
 
-              <div class="footer-section">
-                  <h3>Connect</h3>
-                  <div class="footer-social-links">
-                    <a href="https://github.com/Ro-wdy"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/rhodah-mulera-83972a1bb/"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://x.com/mulera_123"><i class="fa-brands fa-x-twitter"></i></a>
-                    <a href="https://www.instagram.com/Mulera_rh"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.facebook.com/profile.php?id=61565051707341"><i class="fab fa-facebook"></i></a>
-                  </div>
-              </div>
-              
-      </div>
-      <div class="footer-bottom">
-          <p>&copy; 2025 Mulera.</p>
-      </div>
-  </footer>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/Ro-wdy" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/rhodah-mulera-83972a1bb/" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://x.com/mulera_123" target="_blank" aria-label="X (Twitter)">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/Mulera_rh" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=61565051707341" target="_blank" aria-label="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Rhodah Mulera. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../Javascript/script.js"></script>
 </body>
 </html>

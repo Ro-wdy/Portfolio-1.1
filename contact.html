@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Contact - Rhodah Mulera</title>
-  <link rel="stylesheet" href="../css/styles.css">
-  <script src="../Javascript/script.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Rhodah Mulera</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
     <nav id="navbar">
         <div class="nav-content">
-            <div class="logo">Rhodah mulera</div>
-            <ul class="nav-links">
+            <div class="logo">Rhodah Mulera</div>
+            <ul class="nav-links" id="navLinks">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="index.html#about">About</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html" class="active">Contact</a></li>
-                
             </ul>
-            <div class="mobile-menu-btn">
+            <div class="mobile-menu-btn" id="mobileMenuBtn">
                 <i class="fas fa-bars"></i>
             </div>
         </div>
@@ -27,69 +26,142 @@
 
     <section id="contact">
         <div class="container">
-            <h2 class="section-head">Contact Me</h2>
+            <h2 class="section-title">Get In Touch</h2>
             <div class="contact-content">
-                <form class="contact-form">
-                    <input type="text" placeholder="Enter Your Name" required>
-                    <input type="email" placeholder="Email" required>
-                    <textarea placeholder="Message" required></textarea>
-                    <button type="submit" class="submit-btn">Send Message</button>
-                    <div class="contact-info">
-                        <div class="availability-status">
-                            <i class="fas fa-circle"></i>
-                            Available for new projects
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
                         </div>
-                    </div>    
-                </form>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-loading" style="display: none;">
+                                <i class="fas fa-spinner fa-spin"></i> Sending...
+                            </span>
+                        </button>
+                    </form>
 
-                <div class="social-links">
-                    <a href="https://github.com/Ro-wdy"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/rhodah-mulera-83972a1bb/"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://x.com/MuleraRhod23104"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.instagram.com/Mulera_rh"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.facebook.com/profile.php?id=61565051707341"><i class="fab fa-facebook"></i></a>
+                    <div class="form-message" id="formMessage" style="display: none;"></div>
+
+                    <div class="availability-status">
+                        <i class="fas fa-circle"></i>
+                        Available for new projects and opportunities
+                    </div>
+                </div>
+
+                <div class="contact-info-section">
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>mulerarhodah@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+254 743 771 32</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Nairobi, Kenya</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links-section">
+                        <h4>Follow Me</h4>
+                        <div class="social-links large">
+                            <a href="https://github.com/Ro-wdy" target="_blank" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/rhodah-mulera-83972a1bb/" target="_blank" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://x.com/mulera_123" target="_blank" aria-label="X (Twitter)">
+                                <i class="fab fa-x-twitter"></i>
+                            </a>
+                            <a href="https://www.instagram.com/Mulera_rh" target="_blank" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.facebook.com/profile.php?id=61565051707341" target="_blank" aria-label="Facebook">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>Navigate</h3>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html#about">About</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Navigate</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
 
-            <div class="footer-section">
-              <h3>Contact Info</h3>
-              <p><i class="fas fa-envelope"></i> mulerarhodah@gmail.com</p>
-              <p><i class="fas fa-phone"></i> +254 743 771 32</p>
-              <p><i class="fas fa-location-dot"></i> Nairobi</p>
-            </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> mulerarhodah@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +254 743 771 32</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Nairobi, Kenya</p>
+                    </div>
+                </div>
 
-            <div class="footer-section">
-                <h3>Connect</h3>
-                <div class="footer-social-links">
-                  <a href="https://github.com/Ro-wdy"><i class="fab fa-github"></i></a>
-                  <a href="https://www.linkedin.com/in/rhodah-mulera-83972a1bb/"><i class="fab fa-linkedin"></i></a>
-                  <a href="https://x.com/mulera_123"><i class="fa-brands fa-x-twitter"></i></a>
-                  <a href="https://www.instagram.com/Mulera_rh"><i class="fab fa-instagram"></i></a>
-                  <a href="https://www.facebook.com/profile.php?id=61565051707341"><i class="fab fa-facebook"></i></a>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/Ro-wdy" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/rhodah-mulera-83972a1bb/" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://x.com/mulera_123" target="_blank" aria-label="X (Twitter)">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/Mulera_rh" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=61565051707341" target="_blank" aria-label="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
             
-    </div>
-    <div class="footer-bottom">
-        <p>&copy; 2025 Mulera.</p>
-    </div>
-</footer>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Rhodah Mulera. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="../Javascript/script.j"></script>
+    <script src="../Javascript/contact.js"></script>
 </body>
 </html>

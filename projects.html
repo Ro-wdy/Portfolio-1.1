@@ -1,103 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Projects - Rhodah Mulera</title>
-  <link rel="stylesheet" href="../css/styles.css">
-  <script src="../Javascript/script.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Rhodah Mulera</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav id="navbar">
         <div class="nav-content">
-            <div class="logo">Rhodah mulera</div>
-            <ul class="nav-links">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="projects.html">Projects</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              
+            <div class="logo">Rhodah Mulera</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
-            <div class="mobile-menu-btn">
+            <div class="mobile-menu-btn" id="mobileMenuBtn">
                 <i class="fas fa-bars"></i>
             </div>
         </div>
     </nav>
 
-  <section id="projects">
-    <div class="container">
-      <h2 class="section-head">My Projects</h2>
-      <div class="projects-container">
-        <div class="projects-container">
-            <div class="project-card">
-                <img src="../Images/carHire.jpeg" alt="CarHireProject">
-                <h3>Travel Safaris</h3>
-                <p>A comprehensive travel Car Hire booking platform</p>
-                <a href="https://car-hire-six.vercel.app/" class="project-link" target="_blank">View Project</a>
-            </div>
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="../Images/car.jpg" alt="Travel Safaris - Car Hire Platform">
+                    </div>
+                    <div class="project-content">
+                        <h3>Travel Safaris</h3>
+                        <p>A comprehensive travel Car Hire booking platform that allows users to browse, book, and manage car rentals for their travel needs with an intuitive interface.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://car-hire-six.vercel.app/" class="project-link primary" target="_blank">Live Demo</a>
+                            <a href="https://github.com/Ro-wdy" class="project-link secondary" target="_blank">View Code</a>
+                        </div>
+                    </div>
+                </div>
 
-            <div class="project-card">
-                <img src="../Images/PlayTheWord.png" alt="PlayTheWordProject">
-                <h3>Play The Word</h3>
-              <p>A Bible Game created during a Jesus Tech Hackathon</p>
-              <a href="https://play-the-word.vercel.app/" class="project-link" target="_blank">View Project</a>
-            </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="../Images/PlayTheWord.png" alt="Play The Word - Bible Game">
+                    </div>
+                    <div class="project-content">
+                        <h3>Play The Word</h3>
+                        <p>A Bible Game created during a Jesus Tech Hackathon that challenges players with biblical knowledge through interactive gameplay and engaging questions.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">TypeScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://play-the-word.vercel.app/" class="project-link primary" target="_blank">Live Demo</a>
+                            <a href="https://github.com/Ro-wdy" class="project-link secondary" target="_blank">View Code</a>
+                        </div>
+                    </div>
+                </div>
 
-            <div class="project-card">
-                  <img src="../Images/palindrome.jpeg" alt="PalindromeProject">
-                  <h3>Palindrome</h3>
-                <p>A palindrome checker application</p>
-                <a href="https://palindromechecker-seven.vercel.app/" class="project-link" target="_blank">View Project</a>
-            </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="../Images/palindrome.jpeg" alt="Palindrome Checker Application">
+                    </div>
+                    <div class="project-content">
+                        <h3>Palindrome Checker</h3>
+                        <p>A palindrome checker application that validates whether words or phrases read the same forwards and backwards, with a clean and user-friendly interface.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://palindromechecker-seven.vercel.app/" class="project-link primary" target="_blank">Live Demo</a>
+                            <a href="https://github.com/Ro-wdy" class="project-link secondary" target="_blank">View Code</a>
+                        </div>
+                    </div>
+                </div>
 
-            <div class="project-card">
-                <img src="../Images/Clock.jpeg" alt="Digital-Clock">
-                <h3> Digital-Clock</h3>
-                <p>A digital application that displays the current time</p>
-              <a href="https://digital-clock-seven-xi.vercel.app/" class="project-link" target="_blank">View Project</a>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="../Images/Clock.jpeg" alt="Digital Clock Application">
+                    </div>
+                    <div class="project-content">
+                        <h3>Digital Clock</h3>
+                        <p>A digital application that displays the current time with a modern interface, featuring real-time updates and customizable display options for enhanced user experience.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://digital-clock-seven-xi.vercel.app/" class="project-link primary" target="_blank">Live Demo</a>
+                            <a href="https://github.com/Ro-wdy" class="project-link secondary" target="_blank">View Code</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-
         </div>
-    </div>
-</section>
+    </section>
 
-  <!-- Footer  -->
-  <footer>
-    <div class="container">
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>Navigate</h3>
-                <ul>
-                     <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html#about">About</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Navigate</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
 
-            <div class="footer-section">
-              <h3>Contact Info</h3>
-              <p><i class="fas fa-envelope"></i> mulerarhodah@gmail.com</p>
-              <p><i class="fas fa-phone"></i> +254 743 771 32</p>
-              <p><i class="fas fa-location-dot"></i> Nairobi</p>
-            </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> mulerarhodah@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +254 743 771 32</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Nairobi, Kenya</p>
+                    </div>
+                </div>
 
-            <div class="footer-section">
-                <h3>Connect</h3>
-                <div class="footer-social-links">
-                  <a href="https://github.com/Ro-wdy"><i class="fab fa-github"></i></a>
-                  <a href="https://www.linkedin.com/in/rhodah-mulera-83972a1bb/"><i class="fab fa-linkedin"></i></a>
-                  <a href="https://x.com/mulera_123"><i class="fa-brands fa-x-twitter"></i></a>
-                  <a href="https://www.instagram.com/Mulera_rh"><i class="fab fa-instagram"></i></a>
-                  <a href="https://www.facebook.com/profile.php?id=61565051707341"><i class="fab fa-facebook"></i></a>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/Ro-wdy" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/rhodah-mulera-83972a1bb/" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://x.com/mulera_123" target="_blank" aria-label="X (Twitter)">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/Mulera_rh" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=61565051707341" target="_blank" aria-label="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
             
-    </div>
-    <div class="footer-bottom">
-        <p>&copy; 2025 Mulera.</p>
-    </div>
-</footer>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Rhodah Mulera. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
+    <script src="../Javascript/script.js"></script>
 </body>
 </html>
