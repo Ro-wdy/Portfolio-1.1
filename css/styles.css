@@ -784,6 +784,24 @@ img {
   color: var(--accent-color);
 }
 
+/* Canva specific styling */
+.canva-item .gallery-thumbnail {
+  background: linear-gradient(135deg, #8b5cf6, #6d28d9);
+}
+
+.canva-item .gallery-tag {
+  background-color: rgba(139, 92, 246, 0.1); /* Light purple */
+  color: #8b5cf6;
+}
+
+.canva-item .gallery-link {
+  color: #8b5cf6;
+}
+
+.canva-item .gallery-link:hover {
+  color: #6d28d9;
+}
+
 /* Hidden class for filtering */
 .hidden {
   display: none;
