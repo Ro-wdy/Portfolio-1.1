@@ -855,11 +855,11 @@ footer {
   gap: 0.8rem;
 }
 
-.footer-section a {
+.footer-section ul a {
   color: var(--text-muted);
 }
 
-.footer-section a:hover {
+.footer-section ul a:hover {
   color: var(--primary-color);
   padding-left: 5px;
 }
