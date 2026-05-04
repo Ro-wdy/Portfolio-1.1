@@ -78,9 +78,11 @@ window.addEventListener("scroll", function () {
   const navbar = document.getElementById("navbar");
   if (navbar) {
     if (window.scrollY > 50) {
-      navbar.style.backgroundColor = "rgba(255, 255, 255, 0.98)";
+      navbar.style.backgroundColor = "rgba(11, 17, 32, 0.98)";
+      navbar.style.boxShadow = "0 4px 6px -1px rgba(0, 0, 0, 0.3)";
     } else {
-      navbar.style.backgroundColor = "rgba(255, 255, 255, 0.95)";
+      navbar.style.backgroundColor = "rgba(11, 17, 32, 0.8)";
+      navbar.style.boxShadow = "none";
     }
   }
 });
@@ -123,7 +125,7 @@ const observer = new IntersectionObserver(function (entries) {
 // Observe elements for animation
 document.addEventListener("DOMContentLoaded", function () {
   const animatedElements = document.querySelectorAll(
-    ".skill-item, .project-card, .contact-method"
+    ".skill-item, .project-card, .contact-method, .gallery-item"
   );
 
   animatedElements.forEach((el) => {
