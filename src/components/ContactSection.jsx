@@ -175,7 +175,7 @@ const ContactSection = () => {
 
               <div 
                 className="contact-channel-card" 
-                onClick={() => handleCopy('+254 743 771 32', 'Phone number')}
+                onClick={() => handleCopy('+254 743 177 132', 'Phone number')}
                 title="Click to copy phone"
               >
                 <div className="contact-channel-icon">
@@ -183,7 +183,7 @@ const ContactSection = () => {
                 </div>
                 <div className="contact-channel-details">
                   <h4>Phone</h4>
-                  <p>+254 743 771 32</p>
+                  <p>+254 743 177 132</p>
                 </div>
               </div>
 

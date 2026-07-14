@@ -35,7 +35,7 @@ const Footer = () => {
             </div>
             <div className="footer-info-item">
               <Phone size={16} />
-              <a href="tel:+25474377132">+254 743 771 32</a>
+              <a href="tel:+254743177132">+254 743 177 132</a>
             </div>
             <div className="footer-info-item">
               <MapPin size={16} />
