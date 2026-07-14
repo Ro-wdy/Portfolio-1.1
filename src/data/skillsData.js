@@ -7,6 +7,7 @@ export const skillsList = [
   "Django",
   "Node.js",
   "Git",
+  "AWS",
   "Figma",
   "Adobe",
   "Canva"

@@ -21,10 +21,26 @@ const AboutSection = () => {
               I am currently seeking professional growth opportunities—including internships, volunteer engineering roles, and full-time development positions—where I can write high-quality code and deliver meaningful software solutions.
             </p>
 
-            <div className="education-line">
+            <h3 style={{ fontSize: '1.25rem', marginTop: '2.5rem', marginBottom: '1.5rem', fontFamily: 'var(--font-heading)' }}>
+              Education & Certifications
+            </h3>
+
+            <div className="education-line" style={{ borderTop: 'none', paddingTop: 0, marginTop: 0 }}>
               <h4 className="education-title">B.S. Mathematics & Computer Science</h4>
               <div className="education-school">Jomo Kenyatta University of Agriculture and Technology (JKUAT)</div>
               <div className="education-date">2023 &mdash; 2027</div>
+            </div>
+
+            <div className="education-line">
+              <h4 className="education-title">AWS Certified Cloud Practitioner</h4>
+              <div className="education-school">Amazon Web Services (AWS)</div>
+              <div className="education-date">Credential</div>
+            </div>
+
+            <div className="education-line">
+              <h4 className="education-title">Graphics Design Program</h4>
+              <div className="education-school">ALX Africa</div>
+              <div className="education-date">Credential</div>
             </div>
           </div>
 
