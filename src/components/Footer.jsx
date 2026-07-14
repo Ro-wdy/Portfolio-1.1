@@ -65,7 +65,7 @@ const Footer = () => {
 
       <div className="container footer-bottom">
         <p>&copy; {new Date().getFullYear()} Rhodah Mulera. All rights reserved.</p>
-        <p>Built with React & Vite</p>
+        <p>Built with Love ❤️</p>
       </div>
     </footer>
   );
