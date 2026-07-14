@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
-import { Mail, Phone, MapPin, Github, Linkedin, Twitter, Instagram, Facebook, Send, Loader2 } from 'lucide-react';
+import { Mail, Phone, MapPin, Github, Linkedin, Instagram, Facebook, Send, Loader2 } from 'lucide-react';
 
 const ContactSection = () => {
   useEffect(() => {
@@ -207,8 +207,10 @@ const ContactSection = () => {
                 <a href="https://www.linkedin.com/in/rhodah-mulera-83972a1bb/" target="_blank" rel="noopener noreferrer" className="social-circle-btn" aria-label="LinkedIn">
                   <Linkedin size={18} />
                 </a>
-                <a href="https://x.com/mulera_123" target="_blank" rel="noopener noreferrer" className="social-circle-btn" aria-label="X (Twitter)">
-                  <Twitter size={18} />
+                <a href="https://x.com/mulera_123" target="_blank" rel="noopener noreferrer" className="social-circle-btn" aria-label="X (formerly Twitter)">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                  </svg>
                 </a>
                 <a href="https://www.instagram.com/Mulera_rh" target="_blank" rel="noopener noreferrer" className="social-circle-btn" aria-label="Instagram">
                   <Instagram size={18} />
