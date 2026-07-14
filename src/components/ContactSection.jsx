@@ -1,8 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import { Mail, Phone, MapPin, Github, Linkedin, Twitter, Instagram, Facebook, Send, Loader2 } from 'lucide-react';
 
 const ContactSection = () => {
+  useEffect(() => {
+    emailjs.init("xj0gTe5gYm39W8c2J");
+  }, []);
+
   const [formState, setFormState] = useState({
     name: '',
     email: '',
@@ -106,8 +110,7 @@ const ContactSection = () => {
     emailjs.send(
       'service_3wb0jbj', 
       'template_majr3oi', 
-      templateParams, 
-      'xj0gTe5gYm39W8c2J'
+      templateParams
     )
     .then((response) => {
       console.log('SUCCESS!', response.status, response.text);
