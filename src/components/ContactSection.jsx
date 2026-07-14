@@ -144,7 +144,7 @@ const ContactSection = () => {
     <section className="section">
       <div className="container">
         <div className="section-title-wrapper">
-          <h2 className="section-title">Get In Touch</h2>
+          <h1 className="section-title">Get In Touch</h1>
         </div>
 
         <div className="contact-grid">

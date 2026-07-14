@@ -8,7 +8,7 @@ const ProjectGrid = () => {
     <section className="section">
       <div className="container">
         <div className="section-title-wrapper">
-          <h2 className="section-title">My Projects</h2>
+          <h1 className="section-title">My Projects</h1>
         </div>
 
         {/* Selected Work Tier */}

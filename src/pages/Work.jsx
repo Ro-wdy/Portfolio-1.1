@@ -27,7 +27,7 @@ const Work = () => {
       <div className="container">
         <div className="work-intro">
           <div className="section-title-wrapper" style={{ textAlign: 'center' }}>
-            <h2 className="section-title">UI/UX & Design Work</h2>
+            <h1 className="section-title">UI/UX & Design Work</h1>
           </div>
           <p style={{ color: 'var(--text-secondary)', fontSize: '1.05rem', lineHeight: '1.7' }}>
             A collection of user interfaces, prototypes, user journey mappings, and collaborative boards created using Figma, Miro, and Canva.

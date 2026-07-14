@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="22" fill="#10131F" />
+  <rect x="5" y="5" width="90" height="90" rx="18" fill="none" stroke="#2563EB" stroke-width="4" />
+  <text x="50" y="66" font-family="'Space Grotesk', -apple-system, sans-serif" font-size="52" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="-0.05em">RM</text>
+</svg>
