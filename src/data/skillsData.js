@@ -8,7 +8,9 @@ export const skillsList = [
   "Node.js",
   "Git",
   "AWS",
+  "GCP",
   "Figma",
+  "Miro",
   "Adobe",
   "Canva"
 ];
