@@ -28,6 +28,21 @@ export const workExperience = [
     tags: ["WordPress", "AI Agents", "SEO", "Google Ads"]
   },
   {
+    id: "freelance",
+    role: "Frontend Developer",
+    company: "Freelance & Personal Projects",
+    location: "Remote",
+    period: "2023 — Present",
+    current: true,
+    highlights: [
+      "Developed responsive web applications using HTML, CSS, JavaScript, React, Git, and GitHub, applying testing, debugging, documentation, and UI/UX best practices."
+    ],
+    tags: ["HTML", "CSS", "JavaScript", "React", "Git"]
+  }
+];
+
+export const communityExperience = [
+  {
     id: "gdg-jkuat",
     role: "PR Lead & Technology Coordinator",
     company: "GDG on Campus JKUAT",
@@ -52,17 +67,5 @@ export const workExperience = [
       "Contributed to testing and improving digital experiences."
     ],
     tags: ["UI/UX", "Content Design", "Testing"]
-  },
-  {
-    id: "freelance",
-    role: "Frontend Developer",
-    company: "Freelance & Personal Projects",
-    location: "Remote",
-    period: "2023 — Present",
-    current: true,
-    highlights: [
-      "Developed responsive web applications using HTML, CSS, JavaScript, React, Git, and GitHub, applying testing, debugging, documentation, and UI/UX best practices."
-    ],
-    tags: ["HTML", "CSS", "JavaScript", "React", "Git"]
   }
 ];
