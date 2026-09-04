@@ -3,7 +3,7 @@ export const workExperience = [
     id: "truthfuli",
     role: "UI/UX & Frontend Developer (Intern)",
     company: "Truthfuli",
-    location: "Remote",
+    location: "Nairobi, Kenya (Hybrid)",
     period: "Jul 2026 — Present",
     current: true,
     highlights: [
