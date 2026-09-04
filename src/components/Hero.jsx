@@ -18,7 +18,7 @@ const Hero = () => {
             <Link to="/projects" className="btn btn-primary">
               View My Work <ArrowRight size={16} />
             </Link>
-            <a href="/Rhodah_Mulera.pdf" download className="btn btn-secondary">
+            <a href="/Rhodah_Mulera_Resume.pdf" download className="btn btn-secondary">
               <FileText size={16} /> Download Resume
             </a>
           </div>

@@ -56,19 +56,22 @@ const ProjectCard = ({ project, isPractice = false }) => {
               target="_blank" 
               rel="noopener noreferrer" 
               className="project-btn project-btn-primary"
+              style={!codeLink ? { width: '100%', flex: 'none' } : {}}
             >
               Live Demo <ExternalLink size={14} />
             </a>
           )}
-          <a 
-            href={codeLink} 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="project-btn project-btn-secondary"
-            style={!demoLink ? { width: '100%', flex: 'none' } : {}}
-          >
-            View Code <Github size={14} />
-          </a>
+          {codeLink && (
+            <a 
+              href={codeLink} 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="project-btn project-btn-secondary"
+              style={!demoLink ? { width: '100%', flex: 'none' } : {}}
+            >
+              View Code <Github size={14} />
+            </a>
+          )}
         </div>
       </div>
     </div>

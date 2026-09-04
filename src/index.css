@@ -163,6 +163,11 @@ button, input, textarea, select {
 }
 
 /* Tag Pills */
+.text-accent {
+  color: var(--accent-blue);
+  flex-shrink: 0;
+}
+
 .tag-pill {
   font-family: var(--font-mono);
   font-size: 0.75rem;
@@ -1116,6 +1121,142 @@ button, input, textarea, select {
 }
 
 /* -------------------------------------------------------------
+   Work Experience Timeline
+   ------------------------------------------------------------- */
+
+.experience-timeline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-left: 2rem;
+}
+
+.experience-timeline::before {
+  content: '';
+  position: absolute;
+  left: 7px;
+  top: 12px;
+  bottom: 12px;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--accent-blue), var(--border-light));
+}
+
+.experience-item {
+  position: relative;
+}
+
+.experience-marker {
+  position: absolute;
+  left: -2rem;
+  top: 1.6rem;
+}
+
+.experience-dot {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: var(--bg-primary);
+  border: 3px solid var(--border-light);
+  box-sizing: border-box;
+}
+
+.experience-dot-current {
+  border-color: var(--accent-blue);
+  box-shadow: 0 0 0 4px var(--accent-blue-light);
+}
+
+.experience-card {
+  background-color: var(--bg-primary);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem 2rem;
+  transition: var(--transition-normal);
+}
+
+.experience-card:hover {
+  border-color: var(--accent-blue);
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-3px);
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.25rem;
+}
+
+.experience-role {
+  font-size: 1.2rem;
+  margin-bottom: 0.4rem;
+}
+
+.experience-company {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.experience-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.35rem;
+}
+
+.experience-period {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--accent-blue);
+  white-space: nowrap;
+}
+
+.experience-location {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.experience-highlights {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-bottom: 1.25rem;
+}
+
+.experience-highlights li {
+  position: relative;
+  padding-left: 1.25rem;
+  color: var(--text-secondary);
+  font-size: 0.97rem;
+  line-height: 1.65;
+}
+
+.experience-highlights li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.65rem;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--accent-blue);
+}
+
+/* -------------------------------------------------------------
    Responsive Breakpoints
    ------------------------------------------------------------- */
 
@@ -1182,6 +1323,22 @@ button, input, textarea, select {
 
   .form-row {
     grid-template-columns: 1fr;
+  }
+
+  .experience-timeline {
+    padding-left: 1.5rem;
+  }
+
+  .experience-marker {
+    left: -1.5rem;
+  }
+
+  .experience-card {
+    padding: 1.5rem 1.25rem;
+  }
+
+  .experience-meta {
+    align-items: flex-start;
   }
 
   .footer-grid {

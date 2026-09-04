@@ -1,15 +1,5 @@
 export const selectedProjects = [
   {
-    id: "infraguard-ai",
-    title: "InfraGuard AI",
-    description: "A smart web-based fraud detection platform designed to identify unusual transaction activities in real time and strengthen digital financial security.",
-    tech: ["Python", "Django", "Bootstrap", "HTML5", "CSS3"],
-    codeLink: "https://github.com/Ro-wdy/InfraGuard-AI",
-    demoLink: null,
-    image: "/Images/Infra.jpeg",
-    wip: false
-  },
-  {
     id: "gkash",
     title: "Gkash",
     description: "A mobile and web application together with a USSD Flow designed to help gig economy workers and students master financial literacy, saving, investing, and manage their finances effectively on a seamless and secure platform.",
@@ -20,44 +10,24 @@ export const selectedProjects = [
     wip: false
   },
   {
-    id: "wildguard",
-    title: "WildGuard",
-    description: "Developed during an Africa's Talking Hackathon to strengthen wildlife protection efforts by enabling rangers and communities to report, track, and respond to wildlife sightings and potential threats in real time.",
-    tech: ["JavaScript", "TypeScript", "HTML5", "CSS3"],
-    codeLink: "https://github.com/AfricasTalkingHackathons/WildGuard",
-    demoLink: null,
-    image: "/Images/WildGuard.png",
+    id: "biashara-gpt",
+    title: "Biashara GPT",
+    description: "A Kenyan shop assistant powered by Gemini AI and M-Pesa. Duka and market-stall owners log sales by voice or text, request M-Pesa STK-push payments that reconcile automatically, track a daily ledger, and receive a weekly till slip with profit metrics by SMS.",
+    tech: ["React", "Gemini AI", "M-Pesa", "MongoDB Atlas"],
+    codeLink: null,
+    demoLink: "https://biashara-gpt.vercel.app/",
+    image: "/Images/BiasharaGPT.png",
     wip: false
   },
   {
-    id: "play-the-word",
-    title: "Play The Word",
-    description: "A Bible Game created during a Jesus Tech Hackathon that challenges players with biblical knowledge through interactive gameplay and engaging questions.",
-    tech: ["JavaScript", "TypeScript", "HTML5", "CSS3"],
-    codeLink: "https://github.com/faithfoundrytech/jesustech-hackathon-red",
-    demoLink: "https://play-the-word.vercel.app/",
-    image: "/Images/PlayTheWord.png",
+    id: "scriptura",
+    title: "Scriptura",
+    description: "Every word, from any video. Paste a YouTube link and get a searchable transcript with optional speaker detection, plus summaries, chapters, translation, and answers grounded in what was actually said.",
+    tech: ["Python", "Whisper", "JavaScript", "HTML5", "CSS3"],
+    codeLink: "https://github.com/Ro-wdy/scriptura-link",
+    demoLink: "https://ro-wdy.github.io/scriptura-link/",
+    image: "/Images/Scriptura.png",
     wip: false
-  },
-  {
-    id: "travel-safaris",
-    title: "Travel Safaris",
-    description: "A comprehensive travel Car Hire booking platform that allows users to browse, book, and manage car rentals for their travel needs with an intuitive interface.",
-    tech: ["JavaScript", "HTML5", "CSS3"],
-    codeLink: "https://github.com/Ro-wdy/CarHire",
-    demoLink: "https://car-hire-six.vercel.app/",
-    image: "/Images/car.jpg",
-    wip: true
-  },
-  {
-    id: "fishers-shoe",
-    title: "Fisher's Shoe Collection",
-    description: "A dynamic E-commerce website for shoes developed for a client.",
-    tech: ["JavaScript", "HTML5", "CSS3"],
-    codeLink: "https://github.com/Ro-wdy/ShoeWebsite",
-    demoLink: null,
-    image: "/Images/ShoeWebPic.png",
-    wip: true
   }
 ];
 
