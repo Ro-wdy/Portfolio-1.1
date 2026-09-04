@@ -24,7 +24,7 @@ export const selectedProjects = [
     title: "Scriptura",
     description: "Every word, from any video. Paste a YouTube link and get a searchable transcript with optional speaker detection, plus summaries, chapters, translation, and answers grounded in what was actually said.",
     tech: ["Python", "Whisper", "JavaScript", "HTML5", "CSS3"],
-    codeLink: "https://github.com/Ro-wdy/scriptura-link",
+    codeLink: null,
     demoLink: "https://ro-wdy.github.io/scriptura-link/",
     image: "/Images/Scriptura.png",
     wip: false
