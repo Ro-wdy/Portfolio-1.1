@@ -204,7 +204,7 @@ const ContactSection = () => {
                 <a href="https://github.com/Ro-wdy" target="_blank" rel="noopener noreferrer" className="social-circle-btn" aria-label="GitHub">
                   <Github size={18} />
                 </a>
-                <a href="https://www.linkedin.com/in/rhodah-mulera-83972a1bb/" target="_blank" rel="noopener noreferrer" className="social-circle-btn" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/rhodah-mulera/" target="_blank" rel="noopener noreferrer" className="social-circle-btn" aria-label="LinkedIn">
                   <Linkedin size={18} />
                 </a>
                 <a href="https://x.com/mulera_123" target="_blank" rel="noopener noreferrer" className="social-circle-btn" aria-label="X (formerly Twitter)">
