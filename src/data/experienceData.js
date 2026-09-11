@@ -43,24 +43,11 @@ export const workExperience = [
 
 export const communityExperience = [
   {
-    id: "gdg-jkuat",
-    role: "PR Lead",
-    company: "GDG on Campus JKUAT",
-    location: "Juja, Kenya",
-    period: "2025 — Present",
-    current: true,
-    highlights: [
-      "Coordinated technology events, digital initiatives, and technical documentation.",
-      "Collaborated with multidisciplinary teams during workshops, hackathons, and innovation programs."
-    ],
-    tags: ["Community", "Events", "Documentation"]
-  },
-  {
     id: "gdg-cloud-track",
     role: "Cloud Track Lead",
     company: "GDG on Campus JKUAT",
     location: "Juja, Kenya",
-    period: "2026 — Present",
+    period: " September 2026 — Present",
     current: true,
     highlights: [
       "Lead cloud track activities, sessions, and technical learning initiatives for the community.",
@@ -69,8 +56,21 @@ export const communityExperience = [
     tags: ["Community", "Cloud", "Leadership"]
   },
   {
+    id: "gdg-jkuat",
+    role: "PR Lead",
+    company: "GDG on Campus JKUAT",
+    location: "Juja, Kenya",
+    period: " September 2025 — September 2026",
+    current: true,
+    highlights: [
+      "Coordinated technology events, digital initiatives, and technical documentation.",
+      "Collaborated with multidisciplinary teams during workshops, hackathons, and innovation programs."
+    ],
+    tags: ["Community", "Events", "Documentation"]
+  },
+  {
     id: "at-women-in-tech",
-    role: "UI/UX & Digital Content Coordinator",
+    role: "Content Coordinator",
     company: "Africa's Talking Women in Tech",
     location: "Nairobi, Kenya",
     period: "2026 — Present",
@@ -79,6 +79,6 @@ export const communityExperience = [
       "Designed digital content and supported user-focused community initiatives.",
       "Contributed to testing and improving digital experiences."
     ],
-    tags: ["UI/UX", "Content Design", "Testing"]
+    tags: ["UI/UX", "Content Design", "Engagement"]
   }
 ];
