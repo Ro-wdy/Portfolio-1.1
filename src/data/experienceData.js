@@ -44,7 +44,7 @@ export const workExperience = [
 export const communityExperience = [
   {
     id: "gdg-jkuat",
-    role: "PR Lead & Technology Coordinator",
+    role: "PR Lead",
     company: "GDG on Campus JKUAT",
     location: "Juja, Kenya",
     period: "2025 — Present",
@@ -54,6 +54,19 @@ export const communityExperience = [
       "Collaborated with multidisciplinary teams during workshops, hackathons, and innovation programs."
     ],
     tags: ["Community", "Events", "Documentation"]
+  },
+  {
+    id: "gdg-cloud-track",
+    role: "Cloud Track Lead",
+    company: "GDG on Campus JKUAT",
+    location: "Juja, Kenya",
+    period: "2026 — Present",
+    current: true,
+    highlights: [
+      "Lead cloud track activities, sessions, and technical learning initiatives for the community.",
+      "Support members with cloud-focused guidance, collaboration, and hands-on learning opportunities."
+    ],
+    tags: ["Community", "Cloud", "Leadership"]
   },
   {
     id: "at-women-in-tech",
