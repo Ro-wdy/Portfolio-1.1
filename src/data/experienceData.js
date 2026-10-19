@@ -4,12 +4,12 @@ export const workExperience = [
     role: "UI/UX & Frontend Developer (Intern)",
     company: "Truthfuli",
     location: "Nairobi, Kenya (Hybrid)",
-    period: "Jul 2026 — Present",
-    current: true,
+    period: "Jul 2026 — Oct 2026",
+    current: false,
     highlights: [
-      "Design and build responsive product interfaces in React from Figma designs, translating wireframes and prototypes into modular, reusable component libraries.",
-      "Implement analytics dashboard screens (overview and trends views) with a consistent design system, ensuring responsiveness across all breakpoints.",
-      "Collaborate with the product team on user research, usability testing, and iterative UI improvements."
+      "Designed and built responsive product interfaces in React from Figma designs, translating wireframes and prototypes into modular, reusable component libraries.",
+      "Implemented analytics dashboard screens (overview and trends views) with a consistent design system, ensuring responsiveness across all breakpoints.",
+      "Collaborated with the product team on user research, usability testing, and iterative UI improvements."
     ],
     tags: ["React", "Figma", "UI/UX", "Design Systems"]
   },
@@ -42,6 +42,20 @@ export const workExperience = [
 ];
 
 export const communityExperience = [
+  {
+    id: "wtm-ambassador",
+    role: "Women Techmakers Ambassador",
+    company: "Google Women Techmakers",
+    location: "Kenya",
+    period: "October 2026 — Present",
+    current: true,
+    highlights: [
+      "Selected into Google's Women Techmakers Ambassador program, a global network of community leaders who champion visibility, community, and resources for women in technology.",
+      "Organise and speak at workshops, meetups, and events that give women opportunities to learn, build, and grow in tech.",
+      "Mentor and support women in the local tech community, connecting them with Google resources and the global WTM network."
+    ],
+    tags: ["Community", "Mentorship", "Public Speaking"]
+  },
   {
     id: "gdg-cloud-track",
     role: "Cloud Track Lead",
